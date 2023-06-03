@@ -1,6 +1,6 @@
 import React from "react";
 import { Link, NavLink } from "react-router-dom";
-import { BsSearch } from "react-icons/bs";
+import { BsSearch } from "react-icons/bs"; 
 import { CiAlignLeft, CiHeart, CiUser, CiShoppingCart,CiGrid41 } from "react-icons/ci";
 const Header = () => {
   return (
@@ -15,7 +15,7 @@ const Header = () => {
             </div>
             <div className="col-6">
               <p className="text-end text-white mb-0">
-                Hotline :
+                Hotline : {" "}
                 <a className="text-white" href="tel: +84 379063485">
                   +84 379063485
                 </a>
@@ -36,12 +36,12 @@ const Header = () => {
               <div className="input-group input-group-sm">
                 <input
                   type="text"
-                  className="form-control"
+                  className="form-control py-1"
                   placeholder="Search product here ...."
                   aria-label="Search product here ...."
                   aria-describedby="basic-addon2"
                 />
-                <span className="input-group-text p-3" id="basic-addon2">
+                <span className="input-group-text p-2" id="basic-addon2">
                   <BsSearch className="fs-6" />
                 </span>
               </div>

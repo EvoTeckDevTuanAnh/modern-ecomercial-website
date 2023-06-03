@@ -7,7 +7,8 @@ const Layout = () => {
   return (
     <>
         <Header/>
-        <Outlet/>
+        {/* alternative children component by route  */}
+        <Outlet/> 
         <Footer/>
     </>
   )

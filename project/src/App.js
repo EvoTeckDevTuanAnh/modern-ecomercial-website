@@ -11,6 +11,7 @@ function App() {
       {/* router component   */}
       <BrowserRouter>
         <Routes>
+          {/* group route */}
           <Route  path='/' element={<Layout/>}>
               <Route index element={<Home/>}/>
               <Route path='about' element={<About/>}/>
