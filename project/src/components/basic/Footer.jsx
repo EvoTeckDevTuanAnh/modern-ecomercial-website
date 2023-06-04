@@ -1,5 +1,5 @@
 import React from "react";
-import { CiCloudOn,CiFacebook,CiInstagram,CiTwitter,CiYoutube } from "react-icons/ci";
+import { CiCloudOn, CiFacebook, CiInstagram, CiTwitter, CiYoutube } from "react-icons/ci";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
